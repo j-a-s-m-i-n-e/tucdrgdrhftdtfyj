@@ -1,0 +1,101 @@
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+div.logo {
+  margin-left: none;
+}
+body {
+    font-family: "Merriweather";
+}
+
+div.bodytext {
+  margin: 120px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+
+}
+.navbar{
+  background-color: #3FA4DC;
+  overflow: hidden;
+  text-align: center;
+}
+.navbar a {
+  float: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-variant: normal;
+  font-color: black;
+
+
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #EA0C0C;
+}
+
+.navbar a.active {
+  background-color: white;
+  color: #EA0C0C;
+}
+
+
+/*TABLE OF CONTENTS  CODE*/
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 10px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+/*TOC STICKY*/
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+/*scratch game*/
+.scratch-games {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
