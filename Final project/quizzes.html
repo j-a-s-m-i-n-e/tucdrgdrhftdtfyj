@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css_style.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+<title>Fun activities</title>
+<link rel="stylesheet" href="cursor.css">
+<link rel="stylesheet" href="quiz.css">
+<link rel="stylesheet" href="triviaquiz.css">
+<link rel="stylesheet" href="allquizzes.css">
+<script src="cursor.js"></script>
+<link rel="stylesheet" href="button.css">
+<script src="changetext.js"></script>
+</head>
+
+<body>
+  <!--cursor code-->
+  <DIV ID="div1" CLASS="s1">*</DIV>
+ <DIV ID="div2" CLASS="s2">*</DIV>
+ <DIV ID="div3" CLASS="s3">*</DIV>
+ <DIV ID="div4" CLASS="s4">*</DIV>
+ <!-- Credit to Mike McGrath -->
+  <div class="logo">
+  <img src="logo.jpg" alt="logo" class="logo" align="left" width="400" alt="STAND: Students Taking Action for Nationwide Democracy">
+  </div>
+  <br><br>
+  <br><br><br>
+  <br><br><br>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="issues.html">Issues</a>
+  <a href="getinvolved.html">Get Involved</a>
+  <a class="active" href="quizzes.html">Fun Activities</a>
+  <a href="contact.html">Contact</a>
+</div>
+<br>
+<div class="centeredtext" align="center">
+<button class="test" onclick="changetext2()">change text to 25px</button>
+<button class="test" onclick="changetext1()">change text to 30px</button>
+<button class="test" onclick="changetext()">change text to 35px</button>
+<button class="test" onclick="normaltext()">change back to normal</button>
+</div>
+
+
+<br><br><br>
+<div class="bodytext">
+<h1>Quizzes</h1>
+
+<p class="changetext">Take some of our fun quizzes, or play some games!</p>
+
+<div id="main1"><!-- open main div -->
+  <div id="header1"><!-- open header div -->
+  <h1>U.S Government Trivia</h1>
+  </div><!-- close header div -->
+
+
+  <form id="form1">
+
+<h2 class="unique">Which current U.S Senator has been in office for the longest time?</h2>
+  <label><input type="radio" name="variable" value="0" id="var_string" />Senator Sanders</label>
+  <label><input type="radio" name="variable" value="0" id="var_join" />Senator Grassley</label>
+  <label><input type="radio" name="variable" value="1" id="var_info" />Senator Leahy</label>
+  <label><input type="radio" name="variable" value="0" id="var_condition"/>Senator Blumenthal</label>
+
+  <h2 class="unique">What year was the U.S Captiol built?</h2>
+  <label><input type="radio" name="sub" value="1" id="sub_string"/>1793</label>
+  <label><input type="radio" name="sub" value="0" id="sub_join"/>1776</label>
+  <label><input type="radio" name="sub" value="0" id="sub_info" />1803</label>
+  <label><input type="radio" name="sub" value="0" id="sub_condition" />1786</label>
+
+  <h2 class="unique">What president had the middle name 'Hussein'?</h2>
+  <label><input type="radio" name="con" value="0" id="cat_string" />President Trump</label>
+  <label><input type="radio" name="con" value="1" id="cat_join" />President Obama</label>
+  <label><input type="radio" name="con" value="0" id="cat_info" />President Bush</label>
+  <label><input type="radio" name="con" value="0" id="cat_condition" />President Lincoln</label>
+
+  <h2 class="unique">Who is the youngest Member of Congress?</h2>
+  <label><input type="radio" name="ifstate" value="0" id="if_string" />Rashida Tlaib</label>
+  <label><input type="radio" name="ifstate" value="0" id="if_join" />Ilhan Omar</label>
+  <label><input type="radio" name="ifstate" value="0" id="if_info" />Krysten Sinema</label>
+  <label><input type="radio" name="ifstate"  value="1" id="if_condition" />Alexandria Ocasio-Cortez</label>
+
+  <h2 class="unique">The United States Congress is made up of the House and the Senate. What term describes this kind of legislature?</h2>
+  <label><input type="radio" name="house" value="1" id="bicam" />Bicameral</label>
+  <label><input type="radio" name="house" value="0" id="Democratic" />Democratic</label>
+  <label><input type="radio" name="house" value="0" id="fed" />Federal</label>
+  <label><input type="radio" name="house"  value="0" id="com" />Communist</label>
+
+<h2 class="unique">What political party has the symbol of an elephant?</h2>
+<label><input type="radio" name="party" value="1" id="repub" />Republican</label>
+<label><input type="radio" name="party" value="0" id="Dem" />Democrat</label>
+<label><input type="radio" name="party" value="0" id="green" />Green</label>
+<label><input type="radio" name="party"  value="0" id="lib" />Libertarian</label>
+
+<h2 class="unique">How many people serve in Congress?</h2>
+<label><input type="radio" name="congress" value="0" id="ab" />100</label>
+<label><input type="radio" name="congress" value="1" id="cd" />535</label>
+<label><input type="radio" name="congress" value="0" id="ef" />400</label>
+<label><input type="radio" name="congress"  value="0" id="gh" />235</label>
+
+<h2 class="unique">How many U.S. presidents have been assassinated?</h2>
+<label><input type="radio" name="assassinated" value="0" id="ab" />2</label>
+<label><input type="radio" name="assassinated" value="0" id="cd" />10</label>
+<label><input type="radio" name="assassinated" value="0" id="ef" />5</label>
+<label><input type="radio" name="assassinated" value="1" id="gh" />4</label>
+
+<h2 class="unique">How many years was FDR president?</h2>
+<label><input type="radio" name="years" value="0" id="16" />16</label>
+<label><input type="radio" name="years" value="0" id="11" />11</label>
+<label><input type="radio" name="years" value="0" id="8" />8</label>
+<label><input type="radio" name="years" value="1" id="12" />12</label>
+
+<h2 class="unique">Who is the current Speaker of the House?</h2>
+<label><input type="radio" name="speaker" value="0" id="Bernie" />Bernie Sanders</label>
+<label><input type="radio" name="speaker" value="1" id="Nancy" />Nancy Pelosi</label>
+<label><input type="radio" name="speaker" value="0" id="AOC" />Alexandria Ocasio-Cortez</label>
+<label><input type="radio" name="speaker" value="0" id="Kevin McCarthy" />Kevin McCarthy</label>
+
+<div>
+  <button type="submit" class="buttonred" value="Submit">Submit</button>
+</div>
+  </form>
+
+
+
+  <p>You got <span id="grade">__</span> right out of 10!</p>
+  <p id="grade2"></p>
+  </div><!-- close main div -->
+  <script>
+  document.getElementById("form1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+    sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+    con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+    ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+ 	house = parseInt(document.querySelector('input[name = "house"]:checked').value);
+party = parseInt(document.querySelector('input[name = "party"]:checked').value);
+congress = parseInt(document.querySelector('input[name = "congress"]:checked').value);
+assassinated = parseInt(document.querySelector('input[name = "assassinated"]:checked').value);
+years = parseInt(document.querySelector('input[name = "years"]:checked').value);
+speaker = parseInt(document.querySelector('input[name = "speaker"]:checked').value);
+
+    result = variable + sub + con + ifstate + house + party + congress + assassinated + years + speaker;
+
+  document.getElementById("grade").innerHTML = result;
+
+if (result == 0) {result2 = "Oh no! You didn't really do so good, did you? Don't worry, you can always try again!<br /><img src='fail.png' width='300' />"};
+if (result == 1) {result2 = "Oh no! You didn't really do so good, did you? Don't worry, you can always try again!<br /><img src='fail.png' width='300' />"};
+if (result == 2) {result2 = "At least you got some right! Try again!<br /><img src='fail.png' width='300' />"};
+if (result == 3) {result2 = "At least you got some right! Try again!<br /><img src='fail.png' width='300' />"};
+if (result == 4) {result2 = "Good try, but I think you could do better.Try again.<br /><img src='fail.png' width='300' />"};
+if (result == 5) {result2 = "Good try, but I think you could do better.Try again.<br /><img src='fail.png' width='300' />"};
+if (result == 6) {result2 = "So close. Try again.<br /><img src='yay.jpeg' width='300' />"};
+if (result == 7) {result2 = "So close. Try again.<br /><img src='yay.jpeg' width='300' />"};
+if (result == 8) {result2 = "I'm shook by your knowledge of the U.S government! Try again to get that perfect score!<br /><img src='yay.jpeg' width='300'  />"};
+if (result == 9) {result2 = "I'm shook by your knowledge of the U.S government! Try again to get that perfect score!<br /><img src='yay.jpeg' width='300'  />"};
+if (result == 10) {result2 = "OMG! Queen of democracy and the U.S government!<br /><img src='congrats.jpeg' width='300'  />"};
+
+
+
+document.getElementById("grade2").innerHTML = result2;
+
+
+
+
+
+
+  return false; // required to not refresh the page; just leave this here
+  } //this ends the submit function
+
+  </script>
+  <div id="main">
+  <div id="header"><h1>Which U.S Senator are you most like?</h1></div>
+  <form  id="form">
+  <p>What is your favorite ice cream flavor?</p>
+  <label><input type="radio" name="icecream" id="vanilla" value="ted" />Vanilla</label>
+  <label><input type="radio" name="icecream" id="mint" value="kamala" />Mint Chocolate Chip</label>
+  <label><input type="radio" name="icecream" id="caramel" value="Bernie" />Caramel</label>
+  <label><input type="radio" name="icecream" id="pistachio" value="mitch" />Pistachio</label>
+  <p>What is your favorite TV show?</p>
+  <label><input type="radio" name="tvshow" id="fix" value="kamala" />Fixer Upper!</label>
+  <label><input type="radio" name="tvshow" id="brooklyn" value="Bernie" />Brooklyn Nine-Nine</label>
+  <label><input type="radio" name="tvshow"id="bounty" value="ted" />Bounty Hunters</label>
+  <label><input type="radio" name="tvshow" id="duck" value="mitch" />Duck Dynasty</label>
+  <p>What's your go to coffee order?</p>
+  <label><input type="radio" name="coffee" id="iced" value="Bernie" />Iced Coffee with Caramel</label>
+  <label><input type="radio" name="coffee" id="whisky" value="mitch" />I like something stronger than coffee</label>
+  <label><input type="radio" name="coffee" id="hot" value="kamala" />Any Latte</label>
+  <label><input type="radio" name="coffee" id="black" value="ted" />Black Coffee</label>
+  <p>What's your favorite color?</p>
+  <label><input type="radio" name="color" id="purple" value="mitch" />Purple</label>
+  <label><input type="radio" name="color" id="blue" value="Bernie" />Blue</label>
+  <label><input type="radio" name="color" id="green" value="kamala" />Green</label>
+  <label><input type="radio" name="color" id="red" value="ted" />RED RED BABY!</label>
+  <p>What's your dream vacation?</p>
+  <label><input type="radio" name="vacay" id="fiji" value="ted" />Fiji</label>
+  <label><input type="radio" name="vacay" id="china" value="mitch" />China</label>
+  <label><input type="radio" name="vacay" id="iceland" value="Bernie" />Iceland</label>
+  <label><input type="radio" name="vacay" id="maldives" value="kamala" />Maldives</label>
+  <p>What's your favorite accessory?</p>
+  <label><input type="radio" name="fav" id="backpack" value="Bernie" />Backpack</label>
+  <label><input type="radio" name="fav" id="fannypack" value="ted" />Fannypack</label>
+  <label><input type="radio" name="fav" id="2a" value="mitch" />My second amendment rights!</label>
+  <label><input type="radio" name="fav" id="bracelets" value="kamala" />Bracelets</label>
+  <p>It's raining. What do you do?</p>
+  <label><input type="radio" name="rain" id="boots" value="ted" />Grab rain boots!</label>
+  <label><input type="radio" name="rain" id="enjoy" value="Bernie" />Enjoy it!</label>
+  <label><input type="radio" name="rain" id="shelter" value="mitch" />Go to the nearest building and take shelter until it stops!</label>
+  <label><input type="radio" name="rain" id="umbrella" value="kamala" />Grab an umbrella.</label>
+  <p>What's your favorite store?</p>
+  <label><input type="radio" name="store" id="oldnavy" value="Bernie" />Old Navy</label>
+  <label><input type="radio" name="store" id="macy's" value="kamala" />Macy's</label>
+  <label><input type="radio" name="store" id="walmart" value="ted" />Walmart</label>
+  <label><input type="radio" name="store" id="vuitton" value="mitch" />Louis Vuitton</label>
+  <div>
+  <button type="submit" class="buttonred" value="Submit1">Submit</button>
+  </div>
+  </form>
+
+  <p id="answer"></p>
+  <p id="answer2"></p>
+  <p id="answer3"></p>
+  <p id="answer4"></p>
+
+  </div>
+  <script>
+  document.getElementById("form").onsubmit=function() {
+  icecream = document.querySelector('input[name = "icecream"]:checked').value;
+  tvshow = document.querySelector('input[name = "tvshow"]:checked').value;
+  coffee = document.querySelector('input[name = "coffee"]:checked').value;
+  color = document.querySelector('input[name = "color"]:checked').value;
+  vacay = document.querySelector('input[name = "vacay"]:checked').value;
+  fav = document.querySelector('input[name = "fav"]:checked').value;
+  rain = document.querySelector('input[name = "rain"]:checked').value;
+  store = document.querySelector('input[name = "store"]:checked').value;
+  // initialize score variables
+  ted = 0;
+  kamala = 0;
+  Bernie = 0;
+  mitch = 0;
+  //function to calculate score for each question
+  function eachscore(x){
+  if(x == "ted") { ted = ted + 1}
+  if(x == "kamala") { kamala = kamala + 1}
+  if(x == "Bernie") { Bernie = Bernie + 1}
+  if(x == "mitch") { mitch = mitch + 1}
+  }
+  // for the above function, you could also change the 1 to a variable so you could give more points for certain questions
+  //call function for each question
+  eachscore(eval("icecream"));
+  eachscore(eval("tvshow"));
+  eachscore(eval("coffee"));
+  eachscore(eval("color"));
+  eachscore(eval("vacay"));
+  eachscore(eval("rain"));
+  eachscore(eval("store"));
+
+  all = [ted, kamala, Bernie, mitch];
+
+  //get the max score  in the array
+  maxscore = Math.max.apply(Math,all);
+
+  //figure out which score is the max score by identifying its index number
+  for(i=0; i<all.length; i++) {
+  if(all[i]==maxscore) {
+  highest = i;
+  }
+  }
+
+  // object holding scores and feedback
+  scores = [{index:0, feedback: "You got Ted Cruz!. You are one of the most hated senators out there, but you don't understand where your bad rep comes from. You simply stand up for what you believe in, and you believe that there is no greater good, and it's everyone for themselves. You are willing to do anything it takes to succeed, which makes ambition one of your best skills. At the end of the day, you think its better to be feared rather than loved."},
+  {index:1, feedback: "You got Kamala Harris! You are very organized and believe in a pragmatic approach to life. You like to prioritize facts rather than emotions. This has led you to make some bad decisions in the past, but you believe you have more than made up for them. Your emphasis on facts and logic also makes you passionate about justice, and you hate when people lie to you. You prioritize honesty."},
+  {index:2, feedback: "You got Bernie Sanders! People often call you idealistic and crazy. Your response? They called Einstein, Tesla, and any change maker crazy as well! You believe that humans are inherently good, and that they deserve basic rights. You also have a strong sense of pride for your country and your state. You also are a huge believer in hard work and the idea that the system should be fair so that all can benefit, not just the elite."},
+  {index:3, feedback: "You got Mitch McConnell! You believe that each person is responsible for their own life. Some may describe you as selfish when you refuse to share that bag of kitkat minis you bought with the table, but the truth is you GRINDED for that bag and you deserve every single kitkat in it. You hate when people try to blame their problems on others, and you are a strong believer and perseverance and handwork. One of your greatest traits is the fact that you never stop working, and you expect others to do the same."}];
+
+  //loop to match index to score and reply with feedback
+  for(i=0;i<scores.length; i++) {
+  if(highest == scores[i].index) {
+  document.getElementById("answer4").innerHTML = scores[i].feedback;
+  }
+  }
+
+  return false; // required to not refresh the picecream; just leave this here
+  }// en
+
+  </script>
+
+  <h2>Play some Scratch games!</h2>
+  <p>Political Turmoil: use the arrow keys to avoid bribes and crashing into your opponents!</p>
+  <div id="scratch-games" class="container" align="center">
+    <iframe src="https://scratch.mit.edu/projects/323981818/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+
+  <p>White House Walk: Follow the instruction on the screen, and go through a maze filled with trivia questions, based on information on our website!</p>
+  <div id="scratch-games" class="container" align="center">
+    <iframe src="https://scratch.mit.edu/projects/323599007/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+
+
+</div>
+
+
+
+
+</body>
+
+</html>

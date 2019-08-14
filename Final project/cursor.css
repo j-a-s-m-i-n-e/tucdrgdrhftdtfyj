@@ -1,0 +1,36 @@
+<!-- Credit to Mike McGrath -->
+BODY{
+overflow-x:hidden;
+}
+
+.s1
+{
+position  : absolute;
+font-size : 10pt;
+color     : #EA0C0C;
+visibility: hidden;
+}
+
+.s2
+{
+position  : absolute;
+font-size : 18pt;
+color     : #3FA4DC;
+visibility : hidden;
+}
+
+.s3
+{
+position  : absolute;
+font-size : 14pt;
+color     : white;
+visibility : hidden;
+}
+
+.s4
+{
+position  : absolute;
+font-size : 12pt;
+color     : white;
+visibility : hidden;
+}

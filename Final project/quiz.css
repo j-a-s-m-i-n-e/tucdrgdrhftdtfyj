@@ -1,0 +1,53 @@
+body {
+background-color: #3FA4DC;
+font-family: 'Merriweather', serif;
+font-style: normal;
+font-variant: normal;
+}
+
+#main1 {
+width: 75%;
+border: 2px solid #3FA4DC;
+margin: auto;
+font-family: 'Merriweather', serif;
+text-align: center;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header1 {
+margin-top: 0;
+font-family: 'Merriweather', serif;
+border: 5px solid #EA0C0C;
+font-size: 24px;
+
+height: 100px;
+}
+
+label {
+width: 150px;
+float: center;
+display: inline-block;
+font-family: 'Merriweather', serif;
+}
+
+p{
+font-size: 24px;
+font-weight: bold;
+font-family: 'Merriweather', serif;
+text-align: center;
+}
+
+.buttonred{
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 10px 24px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  background-color: #EA0C0C;
+  border: 2px solid #EA0C0C;
+}
